@@ -1,0 +1,32 @@
+Переменный оператор
+# user_data = int(input("enter you password: "))
+#
+# soHappy = False
+#
+# if  soHappy:
+#     print("true")
+# elif user_data >= 8:
+#     print("user is happy: ")
+# else:
+#     print("user is unhappy")
+# for fff in range(6, 14):
+#     print(fff)
+
+Циклы
+for i in range(1,12):
+    if i == 9:
+        break
+    if i % 2 ==0:
+        continue
+    print(i)
+    
+Пример
+found = None
+for i in "hello":
+    if i == "r":
+        found = True
+        break
+else:
+    found = False
+
+print(found)
